@@ -28,6 +28,8 @@ const soundPlay = function(){
   })
 }
 
+
+
 document.querySelector('#btn-start').addEventListener('click', function(){
   timer = setInterval(function(){
     shuffleArray();
@@ -35,8 +37,6 @@ document.querySelector('#btn-start').addEventListener('click', function(){
   }, 50);
   soundPlay();
 });
-
-
 
 // = は、JavaScriptにおいて = の右側にあるものを左側へ代入・保存・設定するという意味
 // forは繰り返し処理を行う回数を具体的にfor文に教える必要がある
